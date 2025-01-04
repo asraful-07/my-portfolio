@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("web");
@@ -51,7 +52,10 @@ const Skills = () => {
   };
 
   return (
-    <div className="text-white p-8">
+    <div className="text-white p-4 container mx-auto">
+      <Helmet>
+        <title>My-Portfolio || Skills</title>
+      </Helmet>
       <h2 className="text-3xl font-bold mb-6 text-white">SKILLS</h2>
       {/* Tabs */}
       <div className="flex justify-center gap-4 mb-6">

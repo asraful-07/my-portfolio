@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   const { name, client, server, live, description } = project;
 
   return (
-    <div className="bg-gray-800 text-white rounded-lg shadow-md border-4 p-4">
+    <div className="bg-gray-800 text-white rounded-lg shadow-md border-2 p-4">
       <h1 className="text-xl font-bold mb-2">{name}</h1>
       <p className="text-sm text-gray-300 mb-4">{description}</p>
       <div className="flex items-center gap-2 lg:gap-4">

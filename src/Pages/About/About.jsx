@@ -1,5 +1,6 @@
 import React from "react";
 import man from "../../assets/images/man.jpg";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   // Dynamic values for problems solved and projects
@@ -8,6 +9,9 @@ const About = () => {
 
   return (
     <div className="p-4 container mx-auto py-16">
+      <Helmet>
+        <title>My-Portfolio || About</title>
+      </Helmet>
       <h1 className="text-3xl font-bold mb-6 text-white">About Me</h1>
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-6">
         <div className="w-full h-full mb-4">

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const form = useRef();
@@ -21,6 +22,9 @@ const Contact = () => {
   };
   return (
     <div className="bg-gray-800 text-white py-8 px-4 container mx-auto">
+      <Helmet>
+        <title>My-Portfolio || Contact</title>
+      </Helmet>
       {/* Connect Information */}
       <div className="max-w-2xl mx-auto text-center mb-12">
         <h1 className="text-4xl font-semibold mb-4">Connect With Me</h1>
