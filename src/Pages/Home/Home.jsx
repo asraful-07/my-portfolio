@@ -1,12 +1,18 @@
 import React from "react";
 import Banner from "../../components/Banner";
 import Skills from "../Skills/Skills";
+import About from "../About/About";
+import Project from "../Project/Project";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
     <div>
       <Banner />
+      <About />
       <Skills />
+      <Project />
+      <Contact />
     </div>
   );
 };

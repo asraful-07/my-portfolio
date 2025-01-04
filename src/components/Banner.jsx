@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 
 const Banner = () => {
   return (
-    <div className="text-white py-16 px-8 md:px-16 lg:px-24">
+    <div className="text-white py-16">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
         {/* Text Content */}
         <div className="lg:w-1/2 text-center lg:text-left">

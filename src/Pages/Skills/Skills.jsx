@@ -52,9 +52,7 @@ const Skills = () => {
 
   return (
     <div className="text-white p-8">
-      <h2 className="text-3xl font-bold mb-6 border-b border-gray-700 pb-2">
-        SKILLS
-      </h2>
+      <h2 className="text-3xl font-bold mb-6 text-white">SKILLS</h2>
       {/* Tabs */}
       <div className="flex justify-center gap-4 mb-6">
         <button
