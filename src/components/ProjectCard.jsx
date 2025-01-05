@@ -1,43 +1,44 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   const { name, client, server, live, description } = project;
 
   return (
-    <div className="bg-gray-800 text-white rounded-lg shadow-md border-2 p-4">
+    <div className="bg-gray-800 text-white rounded-lg shadow-md border-2 p-6">
       <h1 className="text-xl font-bold mb-2">{name}</h1>
       <p className="text-sm text-gray-300 mb-4">{description}</p>
-      <div className="flex items-center gap-2 lg:gap-4">
+      <div className="flex flex-wrap items-center gap-4">
         {client && (
-          <a
-            href={client}
+          <Link
+            to={client}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center lg:text-lg btn btn-outline text-indigo-600 hover:bg-indigo-600 hover:text-white"
+            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white mb-2 md:mb-0"
           >
-            <FaGithub className="mr-1" /> Client Code
-          </a>
+            <FaGithub className="mr-2" /> Client Code
+          </Link>
         )}
         {server && (
-          <button
-            href={server}
+          <Link
+            to={server}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center lg:text-lg btn btn-outline text-indigo-600 hover:bg-indigo-600 hover:text-white"
+            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white mb-2 md:mb-0"
           >
-            <FaGithub className="mr-1" /> Server Code
-          </button>
+            <FaGithub className="mr-2" /> Server Code
+          </Link>
         )}
         {live && (
-          <button
-            href={live}
+          <Link
+            to={live}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center btn btn-outline text-indigo-600 hover:bg-indigo-600 hover:text-white"
+            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white mb-2 md:mb-0"
           >
             Live Preview
-          </button>
+          </Link>
         )}
       </div>
     </div>
