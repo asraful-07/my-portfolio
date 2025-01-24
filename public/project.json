@@ -1,26 +1,56 @@
 [
   {
     "id": "1",
-    "name": "Marathon system",
-    "client": "https://github.com/programming-hero-web-course2/b10a11-client-side-asraful-07",
-    "server": "https://github.com/programming-hero-web-course2/b10a11-server-side-asraful-07",
-    "live": "https://dragon-news-auth-bbbef.web.app/",
-    "description": "The City Marathon 2025 is more than just a race; it is a celebration of health, fitness, and community spirit. Set in the heart of Dhaka, this iconic event brings together thousands of participants from diverse backgrounds and all corners of the globe. Runners, both amateur and professional, will have the unique opportunity to traverse the vibrant streets of Dhaka."
+    "name": "Bangladeshi Matrimony",
+    "client": "https://github.com/asraful-07/Bangladeshi-Matrimony-client",
+    "server": "https://github.com/asraful-07/Bangladeshi-Matrimony-server",
+    "live": "https://assignment-12-50161.web.app/",
+    "description": "A smart algorithm analyzes user preferences and profiles to suggest the most compatible matches. Dedicated mobile apps for Android and iOS are planned to enhance accessibility further. An admin panel for platform administrators to manage user profiles, approve registrations, monitor activity, and address support requests. The Bangladeshi Matrimony platform empowers users to find meaningful connections in a secure and user-friendly environment.",
+    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   },
   {
     "id": "2",
-    "name": "Crowdcube",
-    "client": " https://github.com/programming-hero-web-course2/b10-a10-client-side-asraful-07",
-    "server": "https://github.com/programming-hero-web-course2/b10-a10-server-side-asraful-07",
-    "live": "https://assignment-10-2ecee.web.app/",
-    "description": "Crowdcube is a crowdfunding platform designed to connect creators, innovators, and entrepreneurs with potential backers to raise funds for projects, ideas, and causes. It empowers users to create campaigns for personal needs, creative endeavors, or startups, and provides tools for secure and efficient fundraising.community support and into reality."
+    "name": "Marathon System",
+    "client": "https://github.com/asraful-07/Marathon-system-client",
+    "server": "https://github.com/asraful-07/Marathon-system-server",
+    "live": "https://dragon-news-auth-bbbef.web.app/",
+    "description": "The City Marathon 2025 is more than just a race; it is a celebration of health, fitness, and community spirit. Set in the heart of Dhaka, this iconic event brings together thousands of participants from diverse backgrounds. Runners, both amateur and professional, will have the unique opportunity to traverse the vibrant streets of Dhaka.",
+    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   },
   {
     "id": "3",
+    "name": "Crowdcube",
+    "client": "https://github.com/asraful-07/Crowdcube-client",
+    "server": "https://github.com/asraful-07/Crowdcube-server",
+    "live": "https://assignment-10-2ecee.web.app/",
+    "description": "Crowdcube is a crowdfunding platform designed to connect creators, innovators, and entrepreneurs with potential backers to raise funds for projects, ideas, and causes. It empowers users to create campaigns for personal needs, creative endeavors, or startups, and provides tools for secure and efficient fundraising.",
+    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
+  },
+  {
+    "id": "4",
     "name": "Winter Donation",
-    "client": " https://github.com/programming-hero-web-course1/b10-a9-authentication-asraful-07",
-    "server": "https://github.com/programming-hero-web-course2/b10a11-server-side-asraful-07",
+    "client": "https://github.com/asraful-07/Winter-Donation",
+    "server": "https://github.com/asraful-07/Crowdcube-server",
     "live": "https://winter-donation-681e9.web.app/",
-    "description": "The Winter Clothing Donation platform connects compassionate individuals with those in need, ensuring everyone stays warm during the harsh winter months. It allows donors to contribute clothing items or monetary support to help underprivileged communities. With a seamless process and transparent operations, this initiative spreads warmth, kindness, and hope."
+    "description": "The Winter Clothing Donation platform connects compassionate individuals with those in need, ensuring everyone stays warm during the harsh winter months. It allows donors to contribute clothing items or monetary support to help underprivileged communities. With a seamless process and transparent operations, this initiative spreads warmth, kindness, and hope.",
+    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
+  },
+  {
+    "id": "5",
+    "name": "Gadget Heaven",
+    "client": "https://github.com/asraful-07/Gadget-Heaven",
+    "server": "https://github.com/asraful-07/Crowdcube-server",
+    "live": "https://gadget-heaven.web.app/",
+    "description": "Gadget Heaven is an e-commerce platform for tech enthusiasts, offering a wide range of gadgets and accessories. It features product filtering, detailed product pages, and a smooth shopping experience designed for modern users. Secure payment options and responsive design ensure ease of access across devices.",
+    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
+  },
+  {
+    "id": "5",
+    "name": "Gadget Heaven",
+    "client": "https://github.com/asraful-07/Gadget-Heaven",
+    "server": "https://github.com/asraful-07/Crowdcube-server",
+    "live": "https://gadget-heaven.web.app/",
+    "description": "Gadget Heaven is an e-commerce platform for tech enthusiasts, offering a wide range of gadgets and accessories. It features product filtering, detailed product pages, and a smooth shopping experience designed for modern users. Secure payment options and responsive design ensure ease of access across devices.",
+    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   }
 ]

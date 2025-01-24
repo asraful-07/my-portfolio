@@ -3,21 +3,21 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
-  const { name, client, server, live, description } = project;
+  const { name, client, server, live, description, technologies } = project;
 
   return (
-    <div className="bg-gray-800 text-white rounded-lg shadow-md border-2 p-6">
-      <h1 className="text-xl font-bold mb-2">{name}</h1>
+    <div className="bg-gray-800 text-white rounded-lg shadow-lg border-2 p-6 hover:shadow-2xl transition-shadow duration-300">
+      <h1 className="text-2xl font-bold mb-3">{name}</h1>
       <p className="text-sm text-gray-300 mb-4">{description}</p>
-      <div className="flex flex-wrap items-center gap-4">
+      <div className="flex items-center gap-4 mb-4">
         {client && (
           <Link
             to={client}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white mb-2 md:mb-0"
+            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white"
           >
-            <FaGithub className="mr-2" /> Client Code
+            <FaGithub className="mr-2" /> Client
           </Link>
         )}
         {server && (
@@ -25,9 +25,9 @@ const ProjectCard = ({ project }) => {
             to={server}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white mb-2 md:mb-0"
+            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white"
           >
-            <FaGithub className="mr-2" /> Server Code
+            <FaGithub className="mr-2" /> Server
           </Link>
         )}
         {live && (
@@ -35,9 +35,9 @@ const ProjectCard = ({ project }) => {
             to={live}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white mb-2 md:mb-0"
+            className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white"
           >
-            Live Preview
+            Live Site
           </Link>
         )}
       </div>
