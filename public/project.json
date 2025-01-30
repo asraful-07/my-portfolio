@@ -5,7 +5,7 @@
     "client": "https://github.com/asraful-07/Bangladeshi-Matrimony-client",
     "server": "https://github.com/asraful-07/Bangladeshi-Matrimony-server",
     "live": "https://assignment-12-50161.web.app/",
-    "description": "A smart algorithm analyzes user preferences and profiles to suggest the most compatible matches. Dedicated mobile apps for Android and iOS are planned to enhance accessibility further. An admin panel for platform administrators to manage user profiles, approve registrations, monitor activity, and address support requests. The Bangladeshi Matrimony platform empowers users to find meaningful connections in a secure and user-friendly environment.",
+    "description": "A smart algorithm analyzes user preferences and profiles to suggest the most compatible matches. Dedicated mobile apps for Android and iOS are planned to enhance accessibility further. An admin panel for platform administrators to manage user profiles, approve registrations, monitor activity, and address support requests.",
     "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   },
   {
@@ -14,7 +14,7 @@
     "client": "https://github.com/asraful-07/Marathon-system-client",
     "server": "https://github.com/asraful-07/Marathon-system-server",
     "live": "https://dragon-news-auth-bbbef.web.app/",
-    "description": "The City Marathon 2025 is more than just a race; it is a celebration of health, fitness, and community spirit. Set in the heart of Dhaka, this iconic event brings together thousands of participants from diverse backgrounds. Runners, both amateur and professional, will have the unique opportunity to traverse the vibrant streets of Dhaka.",
+    "description": "The City Marathon 2025 is more than just a race; it is a celebration of health, fitness, and community spirit. Set in the heart of Dhaka, this iconic event brings together thousands of participants from diverse backgrounds. Runners, both amateur and professional, will have the unique opportunity to traverse streets of Dhaka.",
     "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   },
   {
@@ -23,7 +23,7 @@
     "client": "https://github.com/asraful-07/Crowdcube-client",
     "server": "https://github.com/asraful-07/Crowdcube-server",
     "live": "https://assignment-10-2ecee.web.app/",
-    "description": "Crowdcube is a crowdfunding platform designed to connect creators, innovators, and entrepreneurs with potential backers to raise funds for projects, ideas, and causes. It empowers users to create campaigns for personal needs, creative endeavors, or startups, and provides tools for secure and efficient fundraising.",
+    "description": "Crowdcube is a crowdfunding platform designed to connect creators, innovators, and entrepreneurs with potential backers to raise funds for projects, ideas, and causes. It empowers users to create campaigns for personal needs, creative endeavors, or startups, and provides tools for secure and  startups efficient fundraising.",
     "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   },
   {
@@ -32,7 +32,7 @@
     "client": "https://github.com/asraful-07/Winter-Donation",
     "server": "https://github.com/asraful-07/Crowdcube-server",
     "live": "https://winter-donation-681e9.web.app/",
-    "description": "The Winter Clothing Donation platform connects compassionate individuals with those in need, ensuring everyone stays warm during the harsh winter months. It allows donors to contribute clothing items or monetary support to help underprivileged communities. With a seamless process and transparent operations, this initiative spreads warmth, kindness, and hope.",
+    "description": "The Winter Clothing Donation platform connects compassionate individuals with those in need, ensuring everyone stays warm during the harsh winter months. It allows donors to contribute clothing items or monetary support to help underprivileged communities. With a seamless process and transparent operations, kindness, and hope.",
     "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   },
   {

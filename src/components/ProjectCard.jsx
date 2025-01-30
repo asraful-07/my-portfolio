@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
             rel="noopener noreferrer"
             className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white"
           >
-            <FaGithub className="mr-2" /> Client
+            <FaGithub /> Client
           </Link>
         )}
         {server && (
@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
             rel="noopener noreferrer"
             className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white"
           >
-            <FaGithub className="mr-2" /> Server
+            <FaGithub /> Server
           </Link>
         )}
         {live && (
@@ -37,9 +37,16 @@ const ProjectCard = ({ project }) => {
             rel="noopener noreferrer"
             className="flex items-center text-indigo-600 btn btn-outline hover:bg-indigo-600 hover:text-white"
           >
-            Live Site
+            <FaExternalLinkAlt /> Live Site
           </Link>
         )}
+      </div>
+      <div className="flex flex-wrap gap-2 text-xs md:text-sm text-gray-300">
+        {technologies?.map((tech, idx) => (
+          <span key={idx} className="bg-gray-700 px-2 py-1 rounded-md">
+            {tech}
+          </span>
+        ))}
       </div>
     </div>
   );
