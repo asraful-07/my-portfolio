@@ -41,6 +41,7 @@ const ProjectCard = ({ project }) => {
           </Link>
         )}
       </div>
+
       <div className="flex flex-wrap gap-2 text-xs md:text-sm text-gray-300">
         {technologies?.map((tech, idx) => (
           <span key={idx} className="bg-gray-700 px-2 py-1 rounded-md">
