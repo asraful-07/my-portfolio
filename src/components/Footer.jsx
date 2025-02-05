@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-6 border-t border-gray-700 pt-4 text-center text-sm">
-        <p>&copy; 2025 Rahat. All rights reserved.</p>
+        <p>&copy; 2025 Asraful. All rights reserved.</p>
         <div className="mt-2 flex items-center justify-center space-x-2 text-gray-400">
           <span>Built with</span>
           <FaReact className="text-blue-500" />

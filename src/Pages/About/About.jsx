@@ -10,7 +10,7 @@ const About = () => {
         <title>My-Portfolio || About</title>
       </Helmet>
 
-      <h1 className="text-4xl font-extrabold mb-10 text-white uppercase tracking-wide">
+      <h1 className="text-3xl font-extrabold mb-10 text-white uppercase tracking-wide">
         About Me
       </h1>
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,14 +65,14 @@ const Navbar = () => {
             Contact
           </NavLink>
 
-          <a
+          <Link
             href="/resume.pdf"
             className="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-400"
             target="_blank"
             rel="noopener noreferrer"
           >
             Resume
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
