@@ -54,5 +54,3 @@ const ProjectCard = ({ project }) => {
 };
 
 export default ProjectCard;
-
-// ![Waves](https://raw.githubusercontent.com/shakilahmedatik/shakilahmedatik/36f6082eed9388f5965d96f2fbc917a2cb888c89/wave.svg)
