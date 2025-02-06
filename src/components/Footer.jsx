@@ -19,25 +19,25 @@ const Footer = () => {
         </div>
         <div className="flex space-x-4 text-lg">
           <a
-            href="https://github.com"
+            href="https://github.com/asraful-07"
             className="text-gray-400 hover:text-indigo-700"
           >
             <FaGithub className="inline-block text-2xl mr-2" /> GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/asraful-islam-573972318/"
             className="text-gray-400 hover:text-indigo-700"
           >
             <FaLinkedin className="inline-block text-2xl mr-2" /> LinkedIn
           </a>
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/Asraful-Islam9211"
             className="text-gray-400 hover:text-indigo-700"
           >
             <FaTwitter className="inline-block text-2xl mr-2" /> Twitter
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="https://asraful0508@gmail.com"
             className="text-gray-400 hover:text-indigo-700"
           >
             <FaEnvelope className="inline-block text-2xl mr-2" /> Email
