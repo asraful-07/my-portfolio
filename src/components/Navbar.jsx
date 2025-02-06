@@ -66,7 +66,7 @@ const Navbar = () => {
           </NavLink>
 
           <Link
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1Sp1kjoZWSQM5OCws7op3ATCbIiYuTDyI/view?usp=sharing"
             className="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-400"
             target="_blank"
             rel="noopener noreferrer"
