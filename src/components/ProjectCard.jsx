@@ -8,7 +8,9 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div className="bg-gray-800 text-white rounded-lg shadow-lg border-2 p-6 hover:shadow-2xl transition-shadow duration-300">
-      <div className={`portfolio-projects rounded-t-lg ${image}`}></div>
+      <div className="w-ful">
+        <img src={image} alt="" />
+      </div>
       <h1 className="text-2xl font-bold mb-3">{name}</h1>
       <p className="text-sm text-gray-300 mb-4">{description}</p>
       <div className="flex justify-between items-center gap-2 mb-4">
