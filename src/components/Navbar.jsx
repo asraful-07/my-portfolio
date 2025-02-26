@@ -12,7 +12,7 @@ const Navbar = () => {
   const activeLinkStyle = "text-indigo-600 underline font-semibold";
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="backdrop-blur fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <div className="flex items-center">
