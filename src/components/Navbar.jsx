@@ -86,7 +86,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-4 py-4 text-xl font-semibold bg-white shadow-md">
+        <div className="md:hidden flex flex-col items-center space-y-4 py-4 text-xl font-semibold shadow-md">
           <NavLink
             to="/"
             className={({ isActive }) =>
