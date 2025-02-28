@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // Import skill icons
 import htmlIcon from "../../assets/images/html5.png";
@@ -26,6 +28,10 @@ import photoshopIcon from "../../assets/images/photoshopIcon.png";
 
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("web");
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   const webTechnologies = [
     { name: "HTML", img: htmlIcon, proficiency: 95 },
@@ -59,26 +65,28 @@ const Skills = () => {
       <Helmet>
         <title>My-Portfolio || Skills</title>
       </Helmet>
-      <h2 className="text-3xl font-bold mb-6 text-white">SKILLS</h2>
+      <h2 className="text-4xl font-bold mb-8 text-center text-indigo-400">
+        🚀 SKILLS
+      </h2>
 
       {/* Tabs */}
-      <div className="flex justify-center gap-4 mb-6">
+      <div className="flex justify-center gap-6 mb-8">
         <button
           onClick={() => setActiveTab("web")}
-          className={`px-6 py-2 rounded-md font-bold transition-all ${
+          className={`px-8 py-3 rounded-md font-bold transition-all duration-300 text-lg ${
             activeTab === "web"
-              ? "bg-indigo-500 text-white"
-              : "bg-gray-800 text-gray-400"
+              ? "bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/50"
+              : "bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-white"
           }`}
         >
           Web Technologies
         </button>
         <button
           onClick={() => setActiveTab("tools")}
-          className={`px-6 py-2 rounded-md font-bold transition-all ${
+          className={`px-8 py-3 rounded-md font-bold transition-all duration-300 text-lg ${
             activeTab === "tools"
-              ? "bg-indigo-500 text-white"
-              : "bg-gray-800 text-gray-400"
+              ? "bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/50"
+              : "bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-white"
           }`}
         >
           Tools & Others
@@ -91,17 +99,23 @@ const Skills = () => {
           (skill, index) => (
             <div
               key={index}
-              className="bg-white p-4 rounded-lg flex flex-col items-center shadow-lg hover:scale-105 transition-transform"
+              data-aos="zoom-in"
+              className="bg-gray-900 p-5 rounded-xl flex flex-col items-center shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 group relative overflow-hidden"
             >
               <img
                 src={skill.img}
                 alt={skill.name}
-                className="w-16 h-16 object-contain mb-3"
+                className="w-16 h-16 object-contain mb-3 transform group-hover:scale-110 transition-all duration-300"
               />
-              <p className="text-lg font-semibold text-black">{skill.name}</p>
-              <p className="text-lg border-2 border-black rounded-full shadow-lg px-4 mt-2 text-gray-700">
+              <p className="text-lg font-semibold text-indigo-300">
+                {skill.name}
+              </p>
+              <p className="text-md border-2 border-indigo-400 rounded-full shadow-md px-4 py-1 mt-2 text-indigo-300 bg-gray-800">
                 {skill.proficiency}%
               </p>
+
+              {/* Neon Glow Effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-600 opacity-0 group-hover:opacity-20 transition-all duration-500"></div>
             </div>
           )
         )}
