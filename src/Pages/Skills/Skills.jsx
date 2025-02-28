@@ -65,9 +65,7 @@ const Skills = () => {
       <Helmet>
         <title>My-Portfolio || Skills</title>
       </Helmet>
-      <h2 className="text-4xl font-bold mb-8 text-center text-indigo-400">
-        🚀 SKILLS
-      </h2>
+      <h2 className="text-4xl font-bold mb-8 text-start text-white">SKILLS</h2>
 
       {/* Tabs */}
       <div className="flex justify-center gap-6 mb-8">
