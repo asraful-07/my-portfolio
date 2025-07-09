@@ -1,13 +1,13 @@
 [
   {
     "id": "4",
-    "name": "Winter Donation",
-    "image": "project-3",
+    "name": "Bike Zoon",
+    "image": "https://i.ibb.co/GvWjyHwv/Screenshot-2025-07-09-110141.png",
     "client": "https://github.com/asraful-07/Winter-Donation",
     "server": "https://github.com/asraful-07/Crowdcube-server",
     "live": "https://winter-donation-681e9.web.app/",
     "description": "The Winter Clothing Donation platform connects compassionate individuals with those in need, ensuring everyone stays warm during the harsh winter months. It allows donors to contribute clothing items or monetary support to help underprivileged communities. With a seamless process and transparent operations, kindness, and hope.",
-    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
+    "technologies": ["Next.js", "Tailwind", "Node.js", "Express", "Firebase"]
   },
   {
     "id": "5",
@@ -22,10 +22,10 @@
   {
     "id": "5",
     "name": "AB Agency",
-    "image": "project-5",
-    "client": "https://github.com/asraful-07/Gadget-Heaven",
+    "image": "https://i.ibb.co/VYXVHzJt/Screenshot-2025-07-09-105258.png",
+    "client": "https://github.com/abnahid-agency/AB-Nahid-Agency",
     "server": "https://github.com/asraful-07/Crowdcube-server",
-    "live": "https://gadget-heaven.web.app/",
+    "live": "https://www.abnahid.com/",
     "description": "Gadget Heaven is an e-commerce platform for tech enthusiasts, offering a wide range of gadgets and accessories. It features product filtering, detailed product pages, and a smooth shopping experience designed for modern users. Secure payment options and responsive design ensure ease of access across devices.",
     "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
   }
