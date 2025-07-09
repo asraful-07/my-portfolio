@@ -15,26 +15,42 @@ const ProjectCard = ({ project }) => {
   return (
     <div
       data-aos="fade-up"
-      className="bg-gray-800 text-white rounded-lg shadow-lg border-2 border-indigo-500 p-6 hover:shadow-indigo-500/50 hover:shadow-2xl transition-all duration-300"
+      className="bg-gradient-to-br from-gray-800 to-gray-900 text-white rounded-xl shadow-2xl border border-indigo-500/30 p-6 hover:shadow-indigo-500/30 hover:border-indigo-400 transition-all duration-500 group"
     >
-      <div className="w-full mb-2 overflow-hidden rounded-lg">
+      <div className="w-full mb-4 overflow-hidden rounded-lg border border-indigo-500/20 group-hover:border-indigo-400/50 transition-all duration-500">
         <img
           src={image}
           alt={name}
-          className="w-full h-48 object-cover rounded-lg hover:scale-105 transition-transform duration-300"
+          className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
         />
       </div>
-      <h1 className="text-2xl font-bold mb-3 text-indigo-400">{name}</h1>
-      <p className="text-sm text-gray-300 mb-4">{description}</p>
-      <div className="flex justify-between items-center gap-2 mb-4">
+      <h1 className="text-2xl font-bold mb-3 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+        {name}
+      </h1>
+      <p className="text-sm text-gray-300 mb-5 leading-relaxed">
+        {description}
+      </p>
+
+      <div className="flex flex-wrap gap-3 mb-6">
+        {technologies?.map((tech, idx) => (
+          <span
+            key={idx}
+            className="bg-gray-700/80 px-3 py-1 rounded-full text-xs shadow-md hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-600 transition-all duration-300"
+          >
+            {tech}
+          </span>
+        ))}
+      </div>
+
+      <div className="flex flex-wrap justify-between items-center gap-3 mt-auto">
         {client && (
           <Link
             to={client}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-indigo-500 btn btn-outline hover:bg-indigo-500 hover:text-white transition-all duration-300"
+            className="flex-1 flex items-center justify-center gap-2 text-indigo-300 hover:text-white bg-gray-800 hover:bg-indigo-600 px-4 py-2 rounded-lg border border-indigo-500/30 hover:border-indigo-400 transition-all duration-300 text-sm"
           >
-            <FaGithub /> Client
+            <FaGithub className="text-purple-300" /> Client
           </Link>
         )}
         {server && (
@@ -42,9 +58,9 @@ const ProjectCard = ({ project }) => {
             to={server}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-indigo-500 btn btn-outline hover:bg-indigo-500 hover:text-white transition-all duration-300"
+            className="flex-1 flex items-center justify-center gap-2 text-indigo-300 hover:text-white bg-gray-800 hover:bg-indigo-600 px-4 py-2 rounded-lg border border-indigo-500/30 hover:border-indigo-400 transition-all duration-300 text-sm"
           >
-            <FaGithub /> Server
+            <FaGithub className="text-purple-300" /> Server
           </Link>
         )}
         {live && (
@@ -52,22 +68,11 @@ const ProjectCard = ({ project }) => {
             to={live}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-indigo-500 btn btn-outline hover:bg-indigo-500 hover:text-white transition-all duration-300"
+            className="flex-1 flex items-center justify-center gap-2 text-indigo-300 hover:text-white bg-gray-800 hover:bg-purple-600 px-4 py-2 rounded-lg border border-purple-500/30 hover:border-purple-400 transition-all duration-300 text-sm"
           >
-            <FaExternalLinkAlt /> Live Site
+            <FaExternalLinkAlt /> Live
           </Link>
         )}
-      </div>
-
-      <div className="flex flex-wrap gap-2 text-xs md:text-sm text-gray-300">
-        {technologies?.map((tech, idx) => (
-          <span
-            key={idx}
-            className="bg-gray-700 px-3 py-1 rounded-md shadow-md hover:bg-indigo-500 transition-all duration-300"
-          >
-            {tech}
-          </span>
-        ))}
       </div>
     </div>
   );
