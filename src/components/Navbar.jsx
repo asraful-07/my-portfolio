@@ -65,16 +65,16 @@ const Navbar = () => {
             Contact
           </NavLink>
 
-          <li className="w-fit">
-            <a
-              href="https://drive.google.com/file/d/1Megyg3FYZFOdz23fX4EMV8GA9jUQ9ha8/view?usp=sharing"
-              className="relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/50 px-4 py-2 rounded-lg 
-    before:absolute before:inset-0 before:bg-black before:translate-x-full before:transition-transform before:duration-300 
-    hover:before:translate-x-0"
-            >
-              <span className="relative z-10">Resume</span>
-            </a>
-          </li>
+          <a
+            href="https://drive.google.com/file/d/1Megyg3FYZFOdz23fX4EMV8GA9jUQ9ha8/view?usp=sharing"
+            className="relative overflow-hidden bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/50 px-4 py-2 rounded-lg 
+              before:absolute before:inset-0 before:bg-black before:translate-x-full before:transition-transform before:duration-300 
+              hover:before:translate-x-0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="relative z-10">Resume</span>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}

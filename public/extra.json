@@ -12,7 +12,7 @@
   {
     "id": "5",
     "name": "Gadget Heaven",
-    "image": "project-4",
+    "image": "https://i.ibb.co/7x8VSBdF/Screenshot-2025-07-09-103454.png",
     "client": "https://github.com/asraful-07/Gadget-Heaven",
     "server": "https://github.com/asraful-07/Crowdcube-server",
     "live": "https://gadget-heaven.web.app/",
@@ -21,7 +21,7 @@
   },
   {
     "id": "5",
-    "name": "Gadget Heaven",
+    "name": "AB Agency",
     "image": "project-5",
     "client": "https://github.com/asraful-07/Gadget-Heaven",
     "server": "https://github.com/asraful-07/Crowdcube-server",

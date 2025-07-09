@@ -1,32 +1,52 @@
 [
   {
     "id": "1",
+    "name": "Gadget Heaven",
+    "image": "https://i.ibb.co/7x8VSBdF/Screenshot-2025-07-09-103454.png",
+    "client": "https://github.com/soniabinty/gizmorent-client.git",
+    "server": "https://github.com/soniabinty/gizmorent-server.git",
+    "live": "https://gizmorent-7af7c.web.app/",
+    "description": "Gadget Heaven is an e-commerce platform for tech enthusiasts, offering a wide range of gadgets and accessories. It features product filtering, detailed product pages, and a smooth shopping experience designed for modern users. Secure payment options and responsive design ensure ease of access across devices.",
+    "technologies": ["React", "Tailwind", "Node.js", "Express", "Firebase"]
+  },
+  {
+    "id": "2",
+    "name": "AB Agency",
+    "image": "https://i.ibb.co/VYXVHzJt/Screenshot-2025-07-09-105258.png",
+    "client": "https://github.com/abnahid-agency/AB-Nahid-Agency",
+    "server": "https://github.com/soniabinty/gizmorent-server.git",
+    "live": "https://www.abnahid.com/",
+    "description": "Gadget Heaven is an e-commerce platform for tech enthusiasts, offering a wide range of gadgets and accessories. It features product filtering, detailed product pages, and a smooth shopping experience designed for modern users. Secure payment options and responsive design ensure ease of access across devices.",
+    "technologies": ["Next.js", "Typescript", "Tailwind", "Node.js", "Express"]
+  },
+  {
+    "id": "3",
     "name": "Bangladeshi Matrimony",
     "image": "https://i.ibb.co.com/35pcgkn8/Screenshot-2025-02-10-161145.png",
     "client": "https://github.com/asraful-07/Bangladeshi-Matrimony-client",
     "server": "https://github.com/asraful-07/Bangladeshi-Matrimony-server",
     "live": "https://assignment-12-50161.web.app/",
     "description": "A smart algorithm analyzes user preferences and profiles to suggest the most compatible matches. Dedicated mobile apps for Android and iOS are planned to enhance accessibility further. An admin panel for platform administrators to manage user profiles, approve registrations, monitor activity, and address support requests.",
-    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
+    "technologies": ["React", "Tailwind", "Node.js", "Express", "Firebase"]
   },
   {
-    "id": "2",
+    "id": "4",
     "name": "Marathon System",
     "image": "https://i.ibb.co.com/rGYFNjLW/Screenshot-2025-02-10-161217.png",
     "client": "https://github.com/asraful-07/Marathon-system-client",
     "server": "https://github.com/asraful-07/Marathon-system-server",
     "live": "https://dragon-news-auth-bbbef.web.app/",
     "description": "The City Marathon 2025 is more than just a race; it is a celebration of health, fitness, and community spirit. Set in the heart of Dhaka, this iconic event brings together thousands of participants from diverse backgrounds. Runners, both amateur and professional, will have the unique opportunity to traverse streets of Dhaka.",
-    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
+    "technologies": ["React", "Tailwind", "Node.js", "Express", "Firebase"]
   },
   {
-    "id": "3",
+    "id": "5",
     "name": "Crowdcube",
     "image": "https://i.ibb.co.com/mVrHdxGG/Screenshot-2025-02-10-163058.png",
     "client": "https://github.com/asraful-07/Crowdcube-client",
     "server": "https://github.com/asraful-07/Crowdcube-server",
     "live": "https://assignment-10-2ecee.web.app/",
     "description": "Crowdcube is a crowdfunding platform designed to connect creators, innovators, and entrepreneurs with potential backers to raise funds for projects, ideas, and causes. It empowers users to create campaigns for personal needs, creative endeavors, or startups, and provides tools for secure and  startups efficient fundraising.",
-    "technologies": ["React", "Node.js", "Express", "Firebase", "Tailwind"]
+    "technologies": ["React", "Tailwind", "Node.js", "Express", "Firebase"]
   }
 ]
