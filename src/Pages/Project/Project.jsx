@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ProjectCard from "../../components/ProjectCard";
 import { Helmet } from "react-helmet-async";
-import { FaChevronDown, FaChevronUp } from "react-icons/fa"; // ⬅️ Icon import
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const Project = () => {
   const [projects, setProjects] = useState([]);
