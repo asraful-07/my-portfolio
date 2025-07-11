@@ -1,22 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import { Helmet } from "react-helmet-async";
+import { FaCode, FaProjectDiagram } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import man from "../../assets/images/man.jpg";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className="container mx-auto px-6 py-16" data-aos="fade-up">
       <Helmet>
         <title>My-Portfolio || About</title>
       </Helmet>
 
-      <h1 className="text-3xl font-extrabold mb-10 text-white uppercase tracking-wide">
+      <h1
+        className="text-3xl font-extrabold mb-10 text-white uppercase tracking-wide"
+        data-aos="fade-down"
+      >
         About Me
       </h1>
 
-      <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
+      <div
+        className="flex flex-col-reverse lg:flex-row items-center gap-12"
+        data-aos="zoom-in-up"
+      >
         {/* Left - Image Section */}
-        <div className="md:w-1/3">
+        <div className="md:w-1/3" data-aos="fade-right">
           <img
             src={man}
             alt="Asraful Islam"
@@ -25,28 +38,43 @@ const About = () => {
         </div>
 
         {/* Right - Text Section */}
-        <div className="w-full lg:w-1/2 text-white space-y-6">
+        <div
+          className="w-full lg:w-1/2 text-white space-y-6"
+          data-aos="fade-left"
+        >
           <p className="text-lg leading-relaxed">
             Hello! I'm{" "}
-            <span className="font-bold text-indigo-500">Asraful Islam</span>, a
-            passionate front-end developer specializing in creating captivating
-            and user-centric web experiences. With 1 year of experience, I
-            strive to write high-quality code and optimize website performance.
+            <span className="font-bold text-indigo-400">Asraful Islam</span>, a
+            passionate front-end developer and Go backend learner. I craft
+            user-centric web applications with performance, accessibility, and
+            creativity in mind.
           </p>
+
           <p>
             I work with{" "}
-            <span className="text-indigo-500">
-              JavaScript, ReactJS, NextJS, NodeJS, and MongoDB
-            </span>{" "}
-            to develop innovative projects. My goal is to contribute to a
-            dynamic team and drive impactful solutions in a fast-paced
-            environment.
+            <span className="text-indigo-400 font-medium">
+              JavaScript, ReactJS, NextJS, NodeJS, MongoDB, and Go (Golang)
+            </span>
+            . Always excited to learn and build meaningful digital solutions!
           </p>
 
           {/* Stats Section */}
-          <div className="flex flex-col md:flex-row justify-between gap-6 mt-8">
-            <StatCard title="Problems Solved" start={1} end={10} />
-            <StatCard title="Projects" start={1} end={10} />
+          <div
+            className="flex flex-col md:flex-row justify-between gap-6 mt-8"
+            data-aos="fade-up"
+          >
+            <StatCard
+              title="Problems Solved"
+              start={1}
+              end={100}
+              icon={<FaCode />}
+            />
+            <StatCard
+              title="Projects Completed"
+              start={1}
+              end={20}
+              icon={<FaProjectDiagram />}
+            />
           </div>
         </div>
       </div>
@@ -55,9 +83,15 @@ const About = () => {
 };
 
 // Reusable Stat Card Component
-const StatCard = ({ title, start, end }) => (
-  <div className="text-center bg-gray-900 rounded-xl px-8 py-6 md:px-10 md:py-8 text-xl font-semibold shadow-lg border-b-4 border-indigo-500">
-    <p className="font-bold text-4xl text-indigo-500 pb-2">
+const StatCard = ({ title, start, end, icon }) => (
+  <div
+    className="text-center bg-gray-900 rounded-xl px-8 py-6 md:px-10 md:py-8 text-xl font-semibold shadow-lg border-b-4 border-indigo-500"
+    data-aos="zoom-in"
+  >
+    <div className="flex justify-center text-4xl text-purple-400 mb-2">
+      {icon}
+    </div>
+    <p className="font-bold text-4xl text-indigo-400 pb-2">
       <CountUp
         enableScrollSpy
         start={start}
