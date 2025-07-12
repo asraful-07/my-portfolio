@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-// Import skill icons
 import htmlIcon from "../../assets/images/html5.png";
 import cssIcon from "../../assets/images/css3.png";
 import bootstrapIcon from "../../assets/images/bootstrap.png";
