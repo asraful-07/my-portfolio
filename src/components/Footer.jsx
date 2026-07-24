@@ -1,15 +1,9 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaEnvelope,
-  FaReact,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 mt-24">
+    <footer className="bg-gray-800 text-white py-8 mt-20">
       <div className="container mx-auto flex flex-col items-center justify-between px-6 sm:flex-row">
         <div className="mb-4 sm:mb-0">
           <p className="text-lg font-semibold">Asraful's Portfolio</p>
@@ -45,11 +39,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-6 border-t border-gray-700 pt-4 text-center text-sm">
-        <p>&copy; 2025 Asraful. All rights reserved.</p>
-        <div className="mt-2 flex items-center justify-center space-x-2 text-gray-400">
-          <span>Built with</span>
-          <FaReact className="text-blue-500" />
-        </div>
+        <p>&copy; 2026 Asraful. All rights reserved.</p>
+        <div className="mt-2 flex items-center justify-center space-x-2 text-gray-400"></div>
       </div>
     </footer>
   );
