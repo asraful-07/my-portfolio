@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-12 px-4">
+    <div className="min-h-screen bg-gray-900 text-white py-12 px-6">
       <Helmet>
         <title>My-Portfolio || Contact</title>
       </Helmet>
