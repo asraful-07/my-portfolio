@@ -27,19 +27,19 @@ const Contact = () => {
         },
         (error) => {
           console.log("FAILED...", error.text);
-        }
+        },
       );
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-12 px-6">
+    <div className="min-h-screen bg-gray-900 text-white py-12 px-4">
       <Helmet>
         <title>My-Portfolio || Contact</title>
       </Helmet>
 
       <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-600">
-          Get In Touch
+        <h1 className="text-4xl font-bold text-left mb-16 text-transparent bg-clip-text bg-gradient-to-r text-white">
+          Get In <span className="text-indigo-400">Touch</span>
         </h1>
 
         <div className="flex flex-col lg:flex-row gap-12">
