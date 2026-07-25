@@ -46,7 +46,7 @@
   {
     "id": "2",
     "name": "Medicare Point",
-    "image": "../public/images/medicare.png",
+    "image": "/images/medicare.png",
     "client": "https://github.com/asraful-07/bd-healthcaer-frontend",
     "server": "https://github.com/asraful-07/BD_HealthCare_Backend",
     "live": "https://medicare-point-1bbbf.web.app/",
@@ -90,7 +90,7 @@
   {
     "id": "3",
     "name": "Tour Management System",
-    "image": "../public/images/tours.png",
+    "image": "/images/tours.png",
     "client": "https://github.com/asraful-07/tour_management_client",
     "server": "https://github.com/asraful-07/Tour_Management_Backend",
     "live": "https://tour-management-jet.vercel.app/",
@@ -140,7 +140,7 @@
   {
     "id": "4",
     "name": "FoodHunt",
-    "image": "../public/images/foodHunt.png",
+    "image": "/images/foodHunt.png",
     "client": "https://github.com/asraful-07/foodHub_client",
     "server": "https://github.com/asraful-07/foodHub_server",
     "live": "https://food-app-nu-rose.vercel.app/",
@@ -188,7 +188,7 @@
   {
     "id": "5",
     "name": "GizmoRent",
-    "image": "../public/images/gadget.png",
+    "image": "/images/gadget.png",
     "client": "https://github.com/soniabinty/gizmorent-client.git",
     "server": "https://github.com/soniabinty/gizmorent-server.git",
     "live": "https://gizmorent-7af7c.web.app/",
@@ -218,7 +218,7 @@
   {
     "id": "6",
     "name": "AB Agency",
-    "image": "../public/images/ab.png",
+    "image": "/images/ab.png",
     "client": "https://github.com/abnahid-agency/AB-Nahid-Agency",
     "server": "https://github.com/soniabinty/gizmorent-server.git",
     "live": "https://www.abnahid.com/",
