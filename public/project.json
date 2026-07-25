@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Rivora Hotel Booking",
-    "image": "../public/images/hotel.png",
+    "image": "/images/hotel.png",
     "client": "https://github.com/asraful-07/hotel-booking-managemet-frontend",
     "server": "https://github.com/asraful-07/Hotel_Booking_Management_Backend",
     "live": "https://hotel-booking-managemet-frontend.vercel.app/",
