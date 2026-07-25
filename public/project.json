@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Rivora Hotel Booking",
-    "image": "../src/assets/tours.png",
+    "image": "../public/images/hotel.png",
     "client": "https://github.com/asraful-07/hotel-booking-managemet-frontend",
     "server": "https://github.com/asraful-07/Hotel_Booking_Management_Backend",
     "live": "https://hotel-booking-managemet-frontend.vercel.app/",
@@ -46,7 +46,7 @@
   {
     "id": "2",
     "name": "Medicare Point",
-    "image": "../src/assets/medicare.png",
+    "image": "../public/images/medicare.png",
     "client": "https://github.com/asraful-07/bd-healthcaer-frontend",
     "server": "https://github.com/asraful-07/BD_HealthCare_Backend",
     "live": "https://medicare-point-1bbbf.web.app/",
@@ -90,7 +90,7 @@
   {
     "id": "3",
     "name": "Tour Management System",
-    "image": "../src/assets/tours.png",
+    "image": "../public/images/tours.png",
     "client": "https://github.com/asraful-07/tour_management_client",
     "server": "https://github.com/asraful-07/Tour_Management_Backend",
     "live": "https://tour-management-jet.vercel.app/",
@@ -140,8 +140,8 @@
   {
     "id": "4",
     "name": "FoodHunt",
-    "image": "../src/assets/foodHunt.png",
-    "client": "https://github.com/asraful-07/foodhunt-client",
+    "image": "../public/images/foodHunt.png",
+    "client": "https://github.com/asraful-07/foodHub_client",
     "server": "https://github.com/asraful-07/foodHub_server",
     "live": "https://food-app-nu-rose.vercel.app/",
     "description": "FoodHunt is a full-stack multi-vendor food ordering and delivery management platform designed to connect customers with food providers. The platform allows vendors to create profiles, manage food items, receive customer orders, and handle the complete order lifecycle from placement to delivery. Customers can explore food items, add products to their cart, place orders, complete secure payments, and track order status in real-time. The system provides separate dashboards for Admin, Providers, and Users with role-based permissions, ensuring secure and efficient food marketplace operations.",
@@ -188,7 +188,7 @@
   {
     "id": "5",
     "name": "GizmoRent",
-    "image": "../src/assets/gadget.png",
+    "image": "../public/images/gadget.png",
     "client": "https://github.com/soniabinty/gizmorent-client.git",
     "server": "https://github.com/soniabinty/gizmorent-server.git",
     "live": "https://gizmorent-7af7c.web.app/",
@@ -218,7 +218,7 @@
   {
     "id": "6",
     "name": "AB Agency",
-    "image": "../src/assets/ab.png",
+    "image": "../public/images/ab.png",
     "client": "https://github.com/abnahid-agency/AB-Nahid-Agency",
     "server": "https://github.com/soniabinty/gizmorent-server.git",
     "live": "https://www.abnahid.com/",

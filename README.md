@@ -1,6 +1,6 @@
 # Asraful's Portfolio
 
-Welcome to my personal portfolio website! Here, you can explore the projects I've worked on, my skills, and more. This site serves as a representation of my work as a web developer, showcasing the technologies and projects I’ve worked on.
+Welcome to my personal portfolio! Here you can explore the projects I've worked on, my skills, and how to get in touch.
 
 ## Table of Contents
 
@@ -11,53 +11,74 @@ Welcome to my personal portfolio website! Here, you can explore the projects I'v
 
 ## About Me
 
-Hi! I'm Rahat, a passionate web developer specializing in front-end and back-end technologies. My focus is on building user-friendly, responsive, and modern web applications. I’m constantly learning and growing in the tech field and enjoy building systems that help others.
+Hi! I'm Asraful, a backend-focused developer specializing in Go REST APIs. I build production-quality services using a clean layered architecture (domain, DTOs, service, repository, handler, middleware), with a strong focus on correctness — JWT security, proper HTTP semantics, and safe concurrency handling. I also work across the JS/TS ecosystem for full-stack projects.
 
 ## Technologies
 
-- HTML
-- CSS
-- JavaScript
-- React.js
+**Backend (Go)**
+
+- Go
+- Echo
+- GORM
+- PostgreSQL
+- JWT Authentication
+- bcrypt
+
+**Full-Stack / JS Ecosystem**
+
+- React
+- Next.js
+- TypeScript
+- Redux
 - Node.js
-- MongoDB
 - Express.js
+- MongoDB
+- Mongoose
+- Prisma
+- Redis
+
+**Other Tools**
+
 - Tailwind CSS
-- DaisyUI
+- Shadcn UI
+- Stripe
+- Multer
+- PDFKit
+- Socket.io
 
 ## Projects
 
-### 1. [Project Name](#)
+### 1. SpotSync
 
-Description: A brief overview of the project. It could be a website or web application that you’ve worked on.
+Description: A parking zone and reservation management system. Implements a full reservations module (reserve, view my reservations, cancel, view all) with JWT-based identity extraction and `SELECT FOR UPDATE` transactions to prevent overbooking under concurrent requests.
 
-Technologies Used: HTML, CSS, JavaScript, React.js
+Technologies Used: Go, Echo, GORM, PostgreSQL, JWT
 
 [Link to Project](#)
 
-### 2. [Project Name](#)
+### 2. Bike Zone API
 
-Description: A brief overview of another project you've worked on.
+Description: A Go REST API for managing a bike rental/zone service, built with a layered architecture and hardened through a dedicated code-review pass covering role defaults, error handling, response DTOs, and HTTP status correctness.
 
-Technologies Used: Node.js, Express.js, MongoDB
+Technologies Used: Go, Echo, GORM, bcrypt, JWT
 
 [Link to Project](#)
 
 ### 3. [Project Name](#)
 
-Description: A description of any other projects that showcase your skills.
+Description: A brief overview of another project — could be a full-stack app using your React/Next.js/Node stack.
 
-Technologies Used: HTML, CSS, React, etc.
+Technologies Used:
 
 [Link to Project](#)
 
 ## Contact
 
-Feel free to reach out to me if you have any questions or collaboration opportunities!
+Feel free to reach out if you have any questions or collaboration opportunities!
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/your-profile)
-- GitHub: [GitHub Profile](https://github.com/your-profile)
+- Email: [asraful5008@gmail.com](mailto:asraful5008@gmail.com)
+- LinkedIn: [your LinkedIn profile](https://www.linkedin.com/in/your-profile)
+- GitHub: [your GitHub profile](https://github.com/asraful-07)
 
 ---
 
